@@ -49,7 +49,7 @@ public class BearManager extends AbstractAppState {
   private void createBear(){
     Bear bear        = new Bear();
     bear.model       = (Node) assetManager.loadModel("Models/bear.j3o");
-    bear.phys        = new BetterCharacterControl(.5f, 1f, 100f);
+    bear.phys        = new BetterCharacterControl(.3f, .3f, 100f);
     bear.animControl = bear.model.getControl(AnimControl.class);
     bear.animChannel = bear.animControl.createChannel();
     TextureKey key   = new TextureKey("Models/bear.png", true);

@@ -31,7 +31,7 @@ public class SceneManager extends AbstractAppState {
     super.initialize(stateManager, app);
     this.app          = (SimpleApplication) app;
     this.physics      = new BulletAppState();
-    
+    physics.setDebugEnabled(true);
     stateManager.attach(physics);
     initScene();
     }

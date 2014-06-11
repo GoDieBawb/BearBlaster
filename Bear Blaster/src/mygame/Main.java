@@ -22,7 +22,7 @@ public class Main extends SimpleApplication {
     this.stateManager.attach(new SceneManager());
     this.stateManager.attach(new BearManager());
     this.stateManager.attach(new CannonBallManager());
-    //this.stateManager.attach(new InteractionManager());
+    this.stateManager.attach(new InteractionManager());
     this.stateManager.attach(new PlayerManager());
     this.stateManager.attach(new GuiManager());
     this.stateManager.attach(new CameraManager());
