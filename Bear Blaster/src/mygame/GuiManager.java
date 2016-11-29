@@ -47,7 +47,7 @@ public class GuiManager extends AbstractAppState {
     
     screen = new Screen(app, "tonegod/gui/style/atlasdef/style_map.gui.xml");
     screen.setUseTextureAtlas(true,"tonegod/gui/style/atlasdef/atlas.png");
-    screen.setUseMultiTouch(true);
+    //screen.setUseMultiTouch(true);
     this.app.getGuiNode().addControl(screen);
     this.app.getInputManager().setSimulateMouse(true);
     
